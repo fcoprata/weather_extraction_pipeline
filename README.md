@@ -13,7 +13,7 @@ Api URL - https://goweather.herokuapp.com/weather/{city}
 
 Dag Tasks in Airflow:
 <br>
-Create_table: create a postgres table with temperature, wind, description columns
+create_table: create a postgres table with temperature, wind, description columns
 <br>
 is_api_avaliable: uses an HTTP sensor to check if api is available
 <br>
