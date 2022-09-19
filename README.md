@@ -5,8 +5,10 @@ DAG creation in airflow, for data pipeline, extracting data from an API and stor
   <br><br>
 </p>
 
-API - weather-api
+API - weather-api 
+<br>
 Documentation - https://github.com/robertoduessmann/weather-api
+<br>
 Api URL - https://goweather.herokuapp.com/weather/{city}
 
 Dag Tasks in Airflow:
