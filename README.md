@@ -12,8 +12,13 @@ Documentation - https://github.com/robertoduessmann/weather-api
 Api URL - https://goweather.herokuapp.com/weather/{city}
 
 Dag Tasks in Airflow:
+<br>
 Create_table: create a postgres table with temperature, wind, description columns
+<br>
 is_api_avaliable: uses an HTTP sensor to check if api is available
+<br>
 extract_weather: GETs the api to extract the information from it and returns a json
+<br>
 process_weather: calls a function to process the incoming json and then it is saved in .CSV
+<br>
 store_weather: save the JSON to the database
